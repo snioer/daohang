@@ -13,7 +13,9 @@ const sYingshi = document.getElementById("yingshi");
 const sWangpan = document.getElementById("wangpan");
 const sBt = document.getElementById("bt");
 const sFanyi = document.getElementById("fanyi");
-
+const sJsp = document.getElementById("jsp");
+const sNps = document.getElementById("nps");
+const sSps = document.getElementById("sps");
 
 //isEmpty;
 let isEmpty =function (obj)  {
@@ -175,8 +177,29 @@ sFanyi.onclick = function (){
     s='https://fanyi.baidu.com/';
     doAction(p,n,s);
 }
+//jsp
+sJsp.onclick = function (){
+    p='https://j.gcl.one/-----';
+    n='';
+    s='https://j.gcl.one/';
+    doAction(p,n,s);
+}
+//np
+sNps.onclick = function (){
+    p='https://np.gcl.one/main/';
+    n='';
+    s='https://np.gcl.one/';
+    doAction(p,n,s);
+}
+//sp
+sSps.onclick = function (){
+    p='https://sp.gcl.one/';
+    n='';
+    s='https://sp.gcl.one/';
+    doAction(p,n,s);
+}
 console.log("                                  ");
-console.log("   - 欢迎来到Morey的个人导航 -     ");
+console.log("   - 欢迎来到个人导航 -     ");
 console.log("===============================");
 console.log("                          ");
 console.log("       老哥，你好啊~      ");
