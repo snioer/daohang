@@ -179,16 +179,16 @@ sFanyi.onclick = function (){
 }
 //jsp
 sJsp.onclick = function (){
-    p='https://j.gcl.one/-----';
+    p='https://j.4ms.top/-----';
     n='';
-    s='https://j.gcl.one/';
+    s='https://j.4ms.top/';
     doAction(p,n,s);
 }
-//np
+//jsp2
 sNps.onclick = function (){
-    p='https://np.gcl.one/main/';
+    p='https://jsp.4ms.top/-----';
     n='';
-    s='https://np.gcl.one/';
+    s='https://jsp.4ms.top/';
     doAction(p,n,s);
 }
 //sp
